@@ -1,0 +1,119 @@
+body {
+  margin: 0;
+}
+.container {
+  width: 900px;
+  max-width: 90vw;
+  margin: auto;
+  text-align: center;
+  padding-top: 10px;
+}
+svg {
+  width: 30px;
+}
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 0;
+}
+header.icon-cart {
+  position: relative;
+}
+header.icon-cart span {
+  width: 30px;
+  display: inline;
+  height: 30px;
+  background-color: red;
+  justify-content: center;
+  align-items: center;
+  border-radius: 30px;
+  position: absolute;
+  top: 50%;
+  right: -20px;
+}
+.ListProducts .Item img {
+  width: 90%;
+  filter: drop-shadow(0 50px 20px grey);
+  font-size: 50px;
+}
+.ListProducts {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+.ListProducts .Item {
+  background-color: wheat;
+  padding: 20px;
+  border-radius: 20px;
+}
+.ListProducts .Item h2 {
+  font-weight: 500;
+  font-size: large;
+}
+.ListProducts .Item .Price {
+  letter-spacing: 7px;
+  font-size: small;
+}
+.decrease .increase .Delete .Like {
+  margin: 0 5px;
+  cursor: pointer;
+}
+/* .like {
+  color: gray;
+  background-color: gray; */
+/* } */
+.like:hover {
+  color: red;
+  background-color: red;
+}
+.fa-square-heart {
+  font-size: 400px;
+}
+.fa-trash {
+  font-size: 12px;
+}
+/* .ListProducts .Item button {
+  background-color: rgb(48, 44, 44);
+  color: azure;
+  padding: 5px 10px;
+  border-radius: 20px;
+  margin-top: 10px;
+  border: none;
+  cursor: pointer;
+}
+.cartTab {
+  width: 400px;
+  background-color: black;
+  color: white;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  inset: 0 0 0 auto;
+  display: grid;
+  grid-template-rows: 70px 1fr 70px;
+}
+.cartTarb h1 {
+  padding: 20px;
+  margin: 0;
+  font-weight: 300;
+}
+.cartTarb .btn {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.cartTarb .btn .Delete {
+  background-color: yellow;
+  border: none;
+  font-family: Poppins;
+  padding: 10px;
+  width: 100px;
+  font-weight: 500;
+  cursor: pointer;
+}
+.cartTarb .btn .Add {
+  background-color: blue;
+  width: 100px;
+  cursor: pointer;
+} */
